@@ -1,5 +1,7 @@
 # Suno CLI
 
+![Suno CLI](assets/suno_cli.png)
+
 Go source for `suno-pp-cli`, a compact Suno terminal client with local sync,
 search, downloads, generation, and hCaptcha-aware queueing.
 
