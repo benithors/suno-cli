@@ -13,14 +13,14 @@ import (
 	"strings"
 	"time"
 
+	"github.com/benithors/suno-cli/internal/cli"
+	"github.com/benithors/suno-cli/internal/client"
+	"github.com/benithors/suno-cli/internal/cliutil"
+	"github.com/benithors/suno-cli/internal/config"
+	"github.com/benithors/suno-cli/internal/mcp/cobratree"
+	"github.com/benithors/suno-cli/internal/store"
 	mcplib "github.com/mark3labs/mcp-go/mcp"
 	"github.com/mark3labs/mcp-go/server"
-	"github.com/benithors/suno-cli-only/internal/cli"
-	"github.com/benithors/suno-cli-only/internal/client"
-	"github.com/benithors/suno-cli-only/internal/cliutil"
-	"github.com/benithors/suno-cli-only/internal/config"
-	"github.com/benithors/suno-cli-only/internal/mcp/cobratree"
-	"github.com/benithors/suno-cli-only/internal/store"
 )
 
 // RegisterTools registers all API operations as MCP tools.

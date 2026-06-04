@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/benithors/suno-cli/internal/store"
 	"github.com/google/uuid"
-	"github.com/benithors/suno-cli-only/internal/store"
 	"github.com/spf13/cobra"
 )
 

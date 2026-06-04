@@ -1,4 +1,4 @@
-module github.com/benithors/suno-cli-only
+module github.com/benithors/suno-cli
 
 go 1.26.3
 

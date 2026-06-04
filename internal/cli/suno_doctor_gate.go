@@ -20,7 +20,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/benithors/suno-cli-only/internal/client"
+	"github.com/benithors/suno-cli/internal/client"
 )
 
 // gate-probe verdict classes.

@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/benithors/suno-cli-only/internal/config"
+	"github.com/benithors/suno-cli/internal/config"
 )
 
 // recordingRoundTripper counts how many times its RoundTrip method is

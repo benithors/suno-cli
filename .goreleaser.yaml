@@ -9,7 +9,7 @@ builds:
     env:
       - CGO_ENABLED=0
     ldflags:
-      - -s -w -X github.com/benithors/suno-cli-only/internal/cli.version={{ .Version }}
+      - -s -w -X github.com/benithors/suno-cli/internal/cli.version={{ .Version }}
     targets:
       - darwin_amd64
       - darwin_arm64
@@ -44,7 +44,7 @@ brews:
     repository:
       owner: horknfbr
       name: homebrew-tap
-    homepage: "https://github.com/benithors/suno-cli-only"
+    homepage: "https://github.com/benithors/suno-cli"
     description: "The correct, offline-first Suno CLI — every feature the abandoned clients have, plus a local SQLite library"
     install: |
       bin.install "suno-pp-cli"

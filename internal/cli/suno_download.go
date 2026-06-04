@@ -22,10 +22,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/benithors/suno-cli/internal/client"
+	"github.com/benithors/suno-cli/internal/cliutil"
+	"github.com/benithors/suno-cli/internal/store"
 	id3v2 "github.com/bogem/id3v2/v2"
-	"github.com/benithors/suno-cli-only/internal/client"
-	"github.com/benithors/suno-cli-only/internal/cliutil"
-	"github.com/benithors/suno-cli-only/internal/store"
 	"github.com/spf13/cobra"
 )
 

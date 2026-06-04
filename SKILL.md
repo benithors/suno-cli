@@ -13,7 +13,7 @@ metadata:
     install:
       - kind: go
         bins: [suno-pp-cli]
-        module: github.com/benithors/suno-cli-only/cmd/suno-pp-cli
+        module: github.com/benithors/suno-cli/cmd/suno-pp-cli
 ---
 
 # Suno — Printing Press CLI
@@ -24,7 +24,7 @@ This skill drives the `suno-pp-cli` binary. **You must verify the CLI is install
 
 1. Install directly from this standalone Go module:
    ```bash
-   go install github.com/benithors/suno-cli-only/cmd/suno-pp-cli@latest
+   go install github.com/benithors/suno-cli/cmd/suno-pp-cli@latest
    ```
 2. Verify: `suno-pp-cli --version`
 3. Ensure `~/.local/bin` is on `$PATH` for the agent/runtime that will invoke this skill.
@@ -326,7 +326,7 @@ Parse `$ARGUMENTS`:
 
 1. Install the MCP server:
    ```bash
-   go install github.com/benithors/suno-cli-only/cmd/suno-pp-mcp@latest
+   go install github.com/benithors/suno-cli/cmd/suno-pp-mcp@latest
    ```
 2. Register with Claude Code:
    ```bash

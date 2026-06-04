@@ -5,7 +5,7 @@ package cli
 
 import (
 	"fmt"
-	"github.com/benithors/suno-cli-only/internal/config"
+	"github.com/benithors/suno-cli/internal/config"
 	"github.com/spf13/cobra"
 	"os"
 )

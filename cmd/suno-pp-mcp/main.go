@@ -9,8 +9,8 @@ import (
 	"os"
 	"strings"
 
+	mcptools "github.com/benithors/suno-cli/internal/mcp"
 	"github.com/mark3labs/mcp-go/server"
-	mcptools "github.com/benithors/suno-cli-only/internal/mcp"
 )
 
 // Transport selection order: --transport flag, then PP_MCP_TRANSPORT env,

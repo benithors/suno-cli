@@ -13,8 +13,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/benithors/suno-cli-only/internal/client"
-	"github.com/benithors/suno-cli-only/internal/store"
+	"github.com/benithors/suno-cli/internal/client"
+	"github.com/benithors/suno-cli/internal/store"
 )
 
 // syncWorkspaceMembership rebuilds the clip↔workspace index for every workspace

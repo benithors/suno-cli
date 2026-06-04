@@ -14,7 +14,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/benithors/suno-cli-only/internal/store"
+	"github.com/benithors/suno-cli/internal/store"
 	"github.com/spf13/cobra"
 )
 

@@ -11,9 +11,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/benithors/suno-cli-only/internal/auth"
-	"github.com/benithors/suno-cli-only/internal/cliutil"
-	"github.com/benithors/suno-cli-only/internal/config"
+	"github.com/benithors/suno-cli/internal/auth"
+	"github.com/benithors/suno-cli/internal/cliutil"
+	"github.com/benithors/suno-cli/internal/config"
 	"github.com/spf13/cobra"
 )
 

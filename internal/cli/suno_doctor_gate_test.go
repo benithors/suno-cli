@@ -6,7 +6,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/benithors/suno-cli-only/internal/client"
+	"github.com/benithors/suno-cli/internal/client"
 )
 
 func TestClassifyGateProbe(t *testing.T) {

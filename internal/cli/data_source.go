@@ -17,8 +17,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/benithors/suno-cli-only/internal/client"
-	"github.com/benithors/suno-cli-only/internal/store"
+	"github.com/benithors/suno-cli/internal/client"
+	"github.com/benithors/suno-cli/internal/store"
 )
 
 // isNetworkError returns true for errors caused by network connectivity issues

@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/benithors/suno-cli-only/internal/cliutil"
+	"github.com/benithors/suno-cli/internal/cliutil"
 	"github.com/spf13/cobra"
 )
 

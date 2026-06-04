@@ -19,7 +19,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/benithors/suno-cli-only/internal/cliutil"
+	"github.com/benithors/suno-cli/internal/cliutil"
 )
 
 // clerkLimiter throttles the auth-handshake calls to auth.suno.com. Clerk's

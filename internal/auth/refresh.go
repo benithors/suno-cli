@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/benithors/suno-cli-only/internal/config"
+	"github.com/benithors/suno-cli/internal/config"
 )
 
 // EnsureFreshJWT re-mints the stored JWT when it is expired or near-expiry and

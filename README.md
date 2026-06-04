@@ -15,7 +15,7 @@ ln -sf "$PWD/bin/suno-pp-cli" ~/.local/bin/suno-pp-cli
 Or install directly:
 
 ```bash
-go install github.com/benithors/suno-cli-only/cmd/suno-pp-cli@latest
+go install github.com/benithors/suno-cli/cmd/suno-pp-cli@latest
 ```
 
 ## Use

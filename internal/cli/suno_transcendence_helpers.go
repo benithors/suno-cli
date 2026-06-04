@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/benithors/suno-cli-only/internal/store"
+	"github.com/benithors/suno-cli/internal/store"
 )
 
 func openDefaultStore(ctx context.Context) (*store.Store, error) {

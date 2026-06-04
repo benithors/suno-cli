@@ -6,7 +6,7 @@ package main
 import (
 	"os"
 
-	"github.com/benithors/suno-cli-only/internal/cli"
+	"github.com/benithors/suno-cli/internal/cli"
 )
 
 func main() {
